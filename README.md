@@ -1,8 +1,10 @@
-C++ Learning Journey
+# C++ Learning Journey
 
 This repository contains my progress learning C++ concepts, organized by topic with CMake build system.
-Structure
 
+## Structure
+
+```
 cpp-learning/
 ├── concepts/
 │   ├── basics/          # Basic C++ concepts
@@ -10,38 +12,41 @@ cpp-learning/
 │   ├── inheritance/     # (Coming soon)
 │   └── ...
 └── CMakeLists.txt
+```
 
-Building with CMake
-Using Visual Studio
+## Building with CMake
 
-    Open Visual Studio
-    File → Open → Folder
-    Select the cpp-learning directory
-    Visual Studio will automatically configure CMake
-    Use Build → Build All or Ctrl+Shift+B
+### Using Visual Studio
+1. Open Visual Studio
+2. File → Open → Folder
+3. Select the `cpp-learning` directory
+4. Visual Studio will automatically configure CMake
+5. Use Build → Build All or Ctrl+Shift+B
 
-Using Command Line
-
+### Using Command Line
+```bash
 mkdir build
 cd build
 cmake ..
 cmake --build .
+```
 
-Current Topics
-Basics
+## Current Topics
 
-    [x] Hello World
-    [ ] Variables and Data Types
-    [ ] Control Flow
-    [ ] Functions
+### Basics
+* [x] Hello World
+* [ ] Variables and Data Types
+* [ ] Control Flow
+* [ ] Functions
 
-Future Topics
+## Future Topics
+* [ ] Object-Oriented Programming
+* [ ] Polymorphism
+* [ ] Templates
+* [ ] STL Containers
+* [ ] Smart Pointers
+* [ ] Move Semantics
 
-    [ ] Object-Oriented Programming
-    [ ] Polymorphism
-    [ ] Templates
-    [ ] STL Containers
-    [ ] Smart Pointers
-    [ ] Move Semantics
+---
 
-This is a learning repository to document my C++ journey and showcase progress to potential employers.
+*This is a learning repository to document my C++ journey and showcase progress to potential employers.*
