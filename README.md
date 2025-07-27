@@ -7,7 +7,10 @@ This repository contains my progress learning C++ concepts, organized by topic w
 ```
 cpp-learning/
 ├── concepts/
-│   ├── Functions/
+│   ├── 00_Core/
+|   |  └── Arrays/
+|   |  └── ...
+|   ├── 01_OOP/
 │   └── ...
 └── CMakeLists.txt
 ```
@@ -29,21 +32,45 @@ cmake ..
 cmake --build .
 ```
 
-## Current Topics
+## Rough Topics i want to learn personally
 
-### Basics
+## Core
 * [x] Hello World
-* [ ] Variables and Data Types
 * [ ] Control Flow
 * [ ] Functions
+* [ ] Arrays
+* [ ] IO
+* [ ] Pointers & References
+* [ ] Strings
+* [ ] Structure
 
-## Future Topics
-* [ ] Object-Oriented Programming
+## OOP
+* [ ] Classes & Objects
+* [ ] Constructors & Deconstructors
+* [ ] Encapsulation
+
+## Advanced
+### Advanced OOP
+* [ ] Inheritance
 * [ ] Polymorphism
+* [ ] Friend Functions/Classes
+
+### Memory Management 
+* [ ] Dynamic Memory
+* [ ] Smart Pointers
+* [ ] RAII
+* [ ] Memory Leaks & Debugging
+
+### Modern C++ Features
 * [ ] Templates
 * [ ] STL Containers
-* [ ] Smart Pointers
+* [ ] STL Algorithms
+* [ ] Iterators
+* [ ] Lambda Expression
 * [ ] Move Semantics
+* [ ] Perfect Forwarding
+
+More to come...
 
 ---
 
