@@ -1,11 +1,8 @@
 # Concepts directory CMakeLists.txt
 
-# Add concept subdirectories as you create them
-add_subdirectory(Functions)
+add_subdirectory(00_Core)
+add_subdirectory(01_OOP)
+# add_subdirectory(02_Advanced)
 
-# Future concepts - uncomment as you add them:
-# add_subdirectory(polymorphism)
-# add_subdirectory(inheritance)
-# add_subdirectory(templates)
-# add_subdirectory(smart_pointers)
-# add_subdirectory(stl_containers)
+# Future concepts
+# ...

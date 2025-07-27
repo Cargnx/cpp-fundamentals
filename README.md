@@ -7,9 +7,7 @@ This repository contains my progress learning C++ concepts, organized by topic w
 ```
 cpp-learning/
 ├── concepts/
-│   ├── basics/          # Basic C++ concepts
-│   ├── polymorphism/    # (Coming soon)
-│   ├── inheritance/     # (Coming soon)
+│   ├── Functions/
 │   └── ...
 └── CMakeLists.txt
 ```
