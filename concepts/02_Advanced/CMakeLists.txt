@@ -1,0 +1,3 @@
+add_subdirectory(02.1_Advanced_OOP)
+add_subdirectory(02.2_Memory_Management)
+add_subdirectory(02.3_Modern_CPP)
