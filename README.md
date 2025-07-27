@@ -38,7 +38,7 @@ cmake --build .
 * [x] Hello World
 * [ ] Control Flow
 * [ ] Functions
-* [ ] Arrays
+* [x] Arrays
 * [ ] IO
 * [ ] Pointers & References
 * [ ] Strings
