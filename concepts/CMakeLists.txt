@@ -1,7 +1,7 @@
 # Concepts directory CMakeLists.txt
 
 # Add concept subdirectories as you create them
-add_subdirectory(basics)
+add_subdirectory(Functions)
 
 # Future concepts - uncomment as you add them:
 # add_subdirectory(polymorphism)
