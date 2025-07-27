@@ -10,5 +10,20 @@ int main() {
 	int total = sumArray(numbers, 5);
 	std::cout << "Sum of elements: " << total << '\n';
 
+	std::cout << '\n';
+
+	char game[3][3] = {
+		{'x', 'o', 'o'},
+		{'o', 'x', 'x'},
+		{'o', 'o', 'x'}
+	};
+
+	for (int i = 0; i < 3; i++) {
+		for (int j = 0; j < 3; j++) {
+			std::cout << game[i][j];
+		}
+		std::cout << '\n';
+	}
+
 	return 0;
 }
