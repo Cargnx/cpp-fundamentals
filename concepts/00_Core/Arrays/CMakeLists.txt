@@ -1,1 +1,3 @@
-add_executable(Arrays arrays.cpp)
+add_executable(Arrays main.cpp
+        array.cpp
+        array.h)
