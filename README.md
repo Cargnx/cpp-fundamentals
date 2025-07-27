@@ -34,7 +34,7 @@ cmake --build .
 
 ## Rough Topics i want to learn personally
 
-### Core
+## Core
 * [x] Hello World
 * [ ] Control Flow
 * [ ] Functions
@@ -49,19 +49,19 @@ cmake --build .
 * [ ] Constructors & Deconstructors
 * [ ] Encapsulation
 
-### Advanced
-## Advanced OOP
+## Advanced
+### Advanced OOP
 * [ ] Inheritance
 * [ ] Polymorphism
 * [ ] Friend Functions/Classes
 
-## Memory Management 
+### Memory Management 
 * [ ] Dynamic Memory
 * [ ] Smart Pointers
 * [ ] RAII
 * [ ] Memory Leaks & Debugging
 
-## Modern C++ Features
+### Modern C++ Features
 * [ ] Templates
 * [ ] STL Containers
 * [ ] STL Algorithms
