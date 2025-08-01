@@ -33,7 +33,7 @@ int main() {
 
     std::string outputText;
 
-    std::ifstream ReadFile("data.txt");
+    std::ifstream ReadFile(filePath);
 
     while (getline (ReadFile, outputText)) {
         std::cout << outputText << '\n';
