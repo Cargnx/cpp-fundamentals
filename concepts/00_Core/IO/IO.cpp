@@ -29,5 +29,17 @@ int main() {
     std::cout << "File created and written successfully.\n";
     std::cout << "Writing to: " << std::filesystem::absolute(filePath) << '\n';
 
+    std::cout << '\n';
+
+    std::string outputText;
+
+    std::ifstream ReadFile("data.txt");
+
+    while (getline (ReadFile, outputText)) {
+        std::cout << outputText << '\n';
+    }
+
+    ReadFile.close();
+
     return 0;
 }
