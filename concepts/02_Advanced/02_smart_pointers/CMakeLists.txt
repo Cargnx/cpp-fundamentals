@@ -1,0 +1,1 @@
+add_executable(02_smart_pointers smartPtr.cpp)
