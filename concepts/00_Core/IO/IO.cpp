@@ -14,7 +14,6 @@ int main() {
     const std::filesystem::path filePath = basePath / "data.txt";
 
     std::ofstream outFile(filePath);
-
     if (!outFile) {
         std::cerr << "Error opening file for writing.\n";
         return 1;
@@ -24,7 +23,6 @@ int main() {
     outFile << "Date: " << date << ".\n";
     outFile << "Time: " << time << ".\n";
     outFile << "Line: " << line << ".\n";
-    outFile.close();
 
     std::cout << "File created and written successfully.\n";
     std::cout << "Writing to: " << std::filesystem::absolute(filePath) << '\n';
@@ -33,13 +31,15 @@ int main() {
 
     std::string outputText;
 
-    std::ifstream ReadFile(filePath);
-
-    while (getline (ReadFile, outputText)) {
-        std::cout << outputText << '\n';
+    std::ifstream readFile(filePath);
+    if (!readFile) {
+        std::cerr << "Error opening file for reading.\n";
+        return 1;
     }
 
-    ReadFile.close();
+    while (getline (readFile, outputText)) {
+        std::cout << outputText << '\n';
+    }
 
     return 0;
 }
