@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <filesystem>
+#include <utility>
 #include <vector>
 #include <string>
 
@@ -30,8 +31,8 @@ public:
     std::string message;
     std::vector<std::string> lines;
 
-    FileOperationResult(FileResult r, const std::string &msg = "")
-        : result(r), message(msg) {
+    FileOperationResult(FileResult r, std::string msg = "")
+        : result(r), message(std::move(msg)) {
     }
 
     bool isSuccess() const {
