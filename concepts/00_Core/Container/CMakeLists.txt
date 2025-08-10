@@ -1,6 +1,7 @@
 add_executable(Container
-                Vector.cpp
-                List.cpp
-                Map.cpp
-                unordered_map.cpp
+        main.cpp
+        Vector.cpp
+        List.cpp
+        Map.cpp
+        unordered_map.cpp
 )

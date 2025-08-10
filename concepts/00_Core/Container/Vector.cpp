@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-int main() {
+int vector() {
     std::vector<int> vec = {1, 2, 3, 4, 5};
 
     vec.push_back(6); // Add Element to the back
